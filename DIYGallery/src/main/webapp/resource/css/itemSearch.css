@@ -1,0 +1,15 @@
+.itemSearch{margin-top: 150px;}
+.itemSearch .inner{
+	width: 80%;
+}
+.itemSearch .inner form{
+    text-align: center;
+    padding : 20px 0;
+}
+.itemSearch .inner form .t {
+    font-size: 30px;
+    font-weight: 900px;
+}
+.itemSearch .inner form .material-icons{
+    font-size: 30px;
+}

@@ -1,0 +1,17 @@
+
+.memberRegister{margin-top: 150px;}
+.memberRegister .inner{
+	margin : 0 auto;
+	width: 500px;
+	height : auto;	
+	border-radius: 40px 10px;
+	border: 2px solid black;
+}
+
+.memberRegister .inner form{
+	margin : 0 auto;
+	width: 450px;
+	height : auto;	
+	background : white;
+	text-align: center;
+}

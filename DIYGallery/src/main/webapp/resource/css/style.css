@@ -1,0 +1,206 @@
+/* css 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white
+}
+header .inner{
+    height: 120px;
+    position: relative; /*부모역할*/
+}
+header .inner h1{
+    position: absolute;
+    left: 5px;
+    top: 50px;
+}
+header .inner h1 a{}
+header .inner .util{
+    display: flex; /*한줄만들기*/
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+header .inner .util li{
+    padding: 0 10px;
+    font-size: 14px;
+}
+header .inner .util li a{
+    color: black;
+}
+header .inner #gnb{
+    
+    display: flex;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+/*gnb li */
+header .inner #gnb .item {}
+header .inner #gnb .item .item__name {}
+
+header .inner #gnb .item .item__name:hover a {
+    background-color: #000;
+    color: white;
+}
+header .inner #gnb .item .item__name a{
+    padding: 10px 20px;
+    color : #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+header .inner #gnb .item .item__contents{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    display: none;
+}
+header .inner #gnb .item:hover .item__name{
+    background-color: black;
+    color: #fff;
+}
+header .inner #gnb .item:hover .item__contents{
+    display: block;
+}
+header .inner #gnb .item .item__contents .inner > ul{
+    display: flex;
+    justify-content: center;
+}
+header .inner #gnb .item .item__contents .inner > ul > li{
+    padding: 10px 50px;
+}
+header .inner #gnb .item .item__contents .inner > ul > li > ul {}
+header .inner #gnb .item .item__contents .inner > ul > li > ul > li {
+    padding: 20px 0;
+}
+header .inner #gnb .item .item__contents .inner > ul > li > ul > li a{
+    color: #fff;
+}
+header .inner #gnb .item .item__contents .inner > ul > li > ul > li a:hover{
+    color:red;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+/*Figure*/
+
+.figure{
+    margin-top: 120px;
+    width: 100%;
+    height: 500px;
+    /* border: 5px solid red; */
+    background-color: black;
+    position: relative;
+}
+.figure .swiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 500px;
+    border: 5px solid red;
+}
+
+.figure .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Section */
+
+section {
+    width: 100%;
+    padding-bottom: 100px;
+}
+section .inner {}
+section .inner h1{
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+    margin: 70px 0 40px 0;
+}
+section .inner .wrap{
+    display: flex;
+}
+section .inner .wrap article{
+    width: 350px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+section .inner .wrap article:last-child{
+margin-right: 0;
+}
+section .inner .wrap article .pic{
+    width: 100%;
+    height: 150px;
+}
+section .inner .wrap article .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .inner .wrap article h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .inner .wrap article h2 a{
+    color: #424242;
+}
+section .inner .wrap article p{}
+
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #616161;
+}
+footer .inner{}
+footer .inner .upper{
+    height: 200px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+footer .inner .upper h1{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+footer .inner .upper ul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+footer .inner .upper ul li{
+    padding:0 20px;
+}
+footer .inner .upper ul li a{
+    color: white;
+}
+
+/* footer lower */
+footer .inner .lower{
+    height: 200px;
+}
+footer .inner .lower address{
+    font-style: normal;
+    margin:20px 0 ;
+}
+footer .inner .lower p{}

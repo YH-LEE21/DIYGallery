@@ -1,0 +1,17 @@
+
+.login{margin-top: 150px;}
+
+
+.login .inner{
+	margin : 0 auto;
+	width: 500px;
+	height : auto;	
+	background: white;
+	border-radius: 30px;
+	border: 1px solid black;
+	padding: 30px;
+}
+.login .inner h2{
+	text-align: center;
+	font-weight: 700;
+}

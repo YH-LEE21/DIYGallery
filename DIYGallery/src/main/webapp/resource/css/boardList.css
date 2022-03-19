@@ -1,0 +1,56 @@
+.boardlist{
+	margin-top: 150px;
+}
+.boardlist div{
+	text-align : center;
+}
+
+.boardlist .yh1{
+	text-align: right;
+	margin : 30px;
+}
+.boardlist .yh1 a{
+	margin : 20px;
+	padding: 10px 20px;
+    color: #000;
+    background : orange;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.boardlist .yh1 a:hover{
+	margin : 20px;
+	padding: 10px 20px;
+    color: #fff;
+    background : #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.boardlist div #t01 {
+	text-align: center;
+}
+.boardlist div #t01 tr:nth-child(2n-1){
+	background: #dee2e6;
+}
+.boardlist div #t01 tr:nth-child(2n){
+	background: white;
+}
+
+.boardSearch{margin-top: 150px;}
+.boardSearch .inner{
+	width:80%;
+}
+.boardSearch .inner form{
+  text-align: center;
+  padding : 20px 0;
+}
+	
+.boardSearch .inner form .t {
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.boardSearch .inner form .material-icons{
+    font-size: 30px;
+}

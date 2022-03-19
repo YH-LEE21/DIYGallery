@@ -1,0 +1,94 @@
+/*Figure*/
+
+.figure{
+    margin-top: 120px;
+    width: 100%;
+    height: 500px;
+    /* border: 5px solid red; */
+    background-color: black;
+    position: relative;
+}
+.figure .swiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 500px;
+    /* border: 5px solid red; */
+}
+
+.figure .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Section */
+
+section {
+    width: 100%;
+    padding-bottom: 100px;
+}
+section .inner {}
+section .inner h1{
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+    margin: 70px 0 40px 0;
+}
+section .inner .wrap{
+    display: flex;
+}
+section .inner .wrap article{
+    width: 350px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+section .inner .wrap article:last-child{
+margin-right: 0;
+}
+section .inner .wrap article .pic{
+    width: 350px;
+    height: 350px;
+}
+section .inner .wrap article .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .inner .wrap article h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .inner .wrap article h2 a{
+    color: #424242;
+    text-decoration: underline;
+    
+}
+section .inner .wrap article p{}
+
+.gallery{
+	margin : 100px 0px 20px 0px;
+}
+.gallery h1{
+	font-size: 30px;
+	color: #424242;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.gallery .wrap{
+	margin : auto;
+	width : 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	
+}
+.gallery .wrap article{
+}
+.gallery .wrap article .pic img:nth-child(n){
+	width:500px;
+	height:500px;
+}
+.gallery .wrap article .pic img:nth-child(n):hover{
+		transform: scale(1.5);	
+		transition: all 2s ease-in-out;
+}
