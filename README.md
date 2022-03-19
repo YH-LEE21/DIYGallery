@@ -7,4 +7,5 @@
  + [memberRegister.jsp]()
  + [login.jsp]()
  + [boardList.jsp]()
+ + [boardRegister.jsp]()
  + [boardSelect.jsp]()
